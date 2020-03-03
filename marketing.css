@@ -1,0 +1,396 @@
+@font-face {
+  font-family: 'Muller';
+  src: url(/sites/Marketing/departments/pageFiles/fonts/Muller.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerBold';
+  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerBold.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerExtraBold';
+  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerExtraBold.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerMedium';
+  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerMedium.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerLight';
+  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerLight.otf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerThin';
+  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerThin.otf);
+  font-style: normal;
+}
+
+.global-maincontent,
+.article.article-body,
+.article-content {
+  margin: 0;
+  padding: 0;
+}
+
+#globalQuickLaunchMenu,
+.global-breadcrumbs-wrapper.ms-dialogHidden,
+.global-footer-wrapper.ms-dialogHidden {
+  display: none;
+}
+
+.ms-rtestate-field p {
+  display: none;
+}
+
+.global-breadcrumbs-current {
+  display: none;
+  margin: 0;
+}
+
+#s4-bodyContainer:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+#s4-workspace {
+  background-color: #021A32;
+}
+
+#MSOZoneCell_WebPartWPQ2 {
+  margin: auto auto;
+}
+
+.global-body-wrapper {
+  width: 100%;
+}
+
+.global-body-wrapper .global-wrapper {
+  overflow: visible !important;
+}
+
+#mainHolder {
+  padding: 60px 0;
+  background-color: #dfdfdf;
+}
+
+#mainHolder .footer {
+  position: absolute;
+  left: 40%;
+  padding-top: 20px;
+  font-family: 'MullerBold';
+  font-size: 16px;
+  color: #6A6A6A;
+}
+
+#marketing-page {
+  width: 80vw;
+  border-radius: 25px;
+  margin: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 3px 15px #a1a1a1;
+          box-shadow: 0px 3px 15px #a1a1a1;
+}
+
+#marketing-page #banner {
+  background: -webkit-gradient(linear, left top, right top, from(#002e56), to(#0390cf));
+  background: linear-gradient(to right, #002e56 0%, #0390cf 100%);
+  width: 100%;
+  height: 312px;
+  border-radius: 25px 25px 0 0;
+  position: relative;
+}
+
+#marketing-page #banner .banner-image {
+  width: 25%;
+  height: 100%;
+  background-image: url(/sites/Marketing/departments/pageFiles/images/marketing/banner-img.jpg);
+  float: left;
+  background-size: cover;
+  background-position: 0 -100px;
+  border-radius: 25px 0 0 0;
+}
+
+#marketing-page #banner .banner-title {
+  color: #fff;
+  font-size: 40px;
+  font-family: 'MullerBold';
+  padding-top: 80px;
+  padding-left: 489px;
+}
+
+#marketing-page #banner .banner-tagline {
+  font-size: 20px;
+  font-family: 'MullerThin';
+  font-style: italic;
+  line-height: 25px;
+  padding-left: 489px;
+  width: 51%;
+  color: #fff;
+  margin-top: 15px;
+}
+
+#marketing-page #primary {
+  width: 100%;
+  margin: 0;
+}
+
+#marketing-page #primary .active {
+  display: block;
+}
+
+#marketing-page #primary .hidden {
+  display: none;
+}
+
+#marketing-page #primary .side-nav {
+  padding: 0;
+}
+
+#marketing-page #primary .side-nav ul {
+  list-style-type: none;
+  padding: 0;
+  -webkit-box-shadow: 7px 3px 18px #0000001A;
+          box-shadow: 7px 3px 18px #0000001A;
+  margin: 0;
+}
+
+#marketing-page #primary .side-nav ul .nav-item {
+  height: 80px;
+  position: relative;
+  border-top: 2px solid #7070702E;
+  font-family: 'MullerBold';
+  font-size: 18px;
+}
+
+#marketing-page #primary .side-nav ul .nav-item a {
+  text-decoration: none;
+  position: absolute;
+  top: 28px;
+  left: 25px;
+  color: #002E56;
+  width: 215px;
+  -webkit-transition: .75s;
+  transition: .75s;
+}
+
+#marketing-page #primary .side-nav ul .nav-item a:hover {
+  color: #0095d3;
+}
+
+#marketing-page #primary .side-nav ul #branded-tab a, #marketing-page #primary .side-nav ul #content a, #marketing-page #primary .side-nav ul #proposals a, #marketing-page #primary .side-nav ul #digital a {
+  top: 15px;
+}
+
+#marketing-page #primary .side-nav ul .current {
+  background-color: #fff;
+}
+
+#marketing-page #primary .side-nav ul .current a {
+  color: #0095d3;
+}
+
+#marketing-page .primary-content {
+  padding: 80px 105px;
+}
+
+#marketing-page #home .home-card {
+  padding: 0 50px 60px 0;
+}
+
+#marketing-page #home .home-card img {
+  width: 75px;
+}
+
+#marketing-page #home .home-card h3 {
+  font-size: 35px;
+  color: #002E56;
+  font-family: 'MullerLight';
+  margin: 18px 0 25px 0;
+}
+
+#marketing-page #home .home-card hr {
+  margin: 0;
+  border: 1px solid #a1a1a1;
+  width: 115px;
+}
+
+#marketing-page #home .home-card p {
+  font-size: 20px;
+  font-family: 'Muller';
+  padding-top: 30px;
+  width: 375px;
+  display: block;
+}
+
+#marketing-page #home #mission p {
+  width: 360px;
+}
+
+#marketing-page #home #partner p {
+  width: 375px;
+}
+
+#marketing-page #home #partner a {
+  text-decoration: none;
+}
+
+#marketing-page #home #partner a button {
+  width: 205px;
+  border: none;
+  background-color: #8DC63F;
+  border-radius: 10px;
+  height: 40px;
+  color: #0390cf;
+  font-family: 'MullerBold';
+  margin-top: 18px;
+  -webkit-transition: .75s;
+  transition: .75s;
+  cursor: pointer;
+}
+
+#marketing-page #home #partner a button:hover {
+  color: #021a32;
+}
+
+#marketing-page #brand-materials {
+  padding: 60px 105px;
+}
+
+#marketing-page #brand-materials .page-title {
+  font-size: 35px;
+  font-family: 'Muller';
+  color: #002E56;
+  margin-bottom: 35px;
+}
+
+#marketing-page #brand-materials .page-section .section-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+#marketing-page #brand-materials .page-section .section-header img {
+  width: 50px !important;
+  height: 50px !important;
+  margin-right: 15px;
+}
+
+#marketing-page #brand-materials .page-section .section-header .section-title {
+  font-family: 'MullerBold';
+  font-size: 20px;
+  color: #0091D0;
+  margin-bottom: 10px;
+}
+
+#marketing-page #brand-materials .page-section .section-header .section-desc {
+  font-family: 'Muller';
+  color: #A9A9A9;
+  font-size: 14px;
+}
+
+#marketing-page #brand-materials .page-section .section-header .section-desc a {
+  color: #00AEEF;
+}
+
+#marketing-page #brand-materials .page-section .card-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#marketing-page #brand-materials .page-section .card-holder .materials-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 21%;
+          flex: 1 0 21%;
+  max-width: 23%;
+  min-height: 169px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: #EBEBEB;
+  border-radius: 25px;
+  padding: 12px 14px 0 18px;
+}
+
+#marketing-page #brand-materials .page-section .card-holder .materials-card img {
+  width: 25px;
+  float: right;
+  margin-bottom: 5px;
+}
+
+#marketing-page #brand-materials .page-section .card-holder .materials-card .card-title {
+  color: #002E56;
+  font-family: 'MullerBold';
+  margin-top: 15%;
+  font-size: 16px;
+}
+
+#marketing-page #brand-materials .page-section .card-holder .materials-card .card-title a {
+  color: #002E56;
+  text-decoration: none;
+}
+
+#marketing-page #brand-materials .page-section .card-holder .materials-card .card-desc {
+  font-family: 'MullerLight';
+  font-weight: 600;
+  color: #6C6C6C;
+  font-size: 14px;
+  display: block;
+}
+
+#marketing-page #brand-materials .page-section .card-holder .materials-card .card-desc a {
+  color: #00AEEF;
+}
+
+@media (max-width: 1600px) {
+  .footer {
+    left: 37%;
+  }
+  #marketing-page {
+    width: 85vw;
+  }
+  #marketing-page #banner .banner-image {
+    width: 25%;
+  }
+  #marketing-page #banner .banner-title {
+    padding-left: 445px;
+  }
+  #marketing-page #banner .banner-tagline {
+    padding-left: 445px;
+    width: 55%;
+  }
+  #marketing-page #brand-materials .page-section .card-holder .materials-card {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 30%;
+            flex: 1 0 30%;
+    max-width: 32%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .footer {
+    left: 35%;
+  }
+  #marketing-page #banner .banner-image {
+    background-position: 0 -15px;
+  }
+  #marketing-page #banner .banner-tagline {
+    width: 75%;
+  }
+}
+/*# sourceMappingURL=marketing.css.map */
