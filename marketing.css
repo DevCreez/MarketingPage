@@ -1,36 +1,36 @@
 @font-face {
   font-family: 'Muller';
-  src: url(/sites/Marketing/departments/pageFiles/fonts/Muller.ttf);
+  src: url(Muller.ttf);
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MullerBold';
-  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerBold.ttf);
+  src: url(MullerBold.ttf);
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MullerExtraBold';
-  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerExtraBold.otf);
+  src: url(MullerExtraBold.otf);
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MullerMedium';
-  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerMedium.otf);
+  src: url(MullerMedium.otf);
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MullerLight';
-  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerLight.otf);
+  src: url(MullerLight.otf);
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MullerThin';
-  src: url(/sites/Marketing/departments/pageFiles/fonts/MullerThin.otf);
+  src: url(MullerThin.otf);
   font-style: normal;
 }
 
