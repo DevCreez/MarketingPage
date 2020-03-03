@@ -18,4 +18,6 @@ only the home and Brand & Branded Materials pages are available as that was all 
 
 initial launch of the redesign of the marketing team's section in our intranet. As new sections are created I will continue 
 
-to update this project but for now, check out the home and branding materials page and critique the UI/UX that this page provides.
+to update this project but for now, check out the home and branding materials page and critique 
+
+the UI/UX that this page provides.
